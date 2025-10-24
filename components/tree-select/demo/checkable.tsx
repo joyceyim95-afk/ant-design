@@ -53,7 +53,7 @@ const App: React.FC = () => {
     value,
     onChange,
     treeCheckable: true,
-    showCheckedStrategy: SHOW_PARENT,
+    showCheckedStrategy: SHOW_CHILD,
     placeholder: 'Please select',
     style: {
       width: '100%',
